@@ -1,5 +1,16 @@
 # COGS-189-Project: EEG Motor Imagery Classification
 
+## Table of Contents
+
+- [Overview](#overview)  
+- [Team Information](#team-infomation)  
+- [Presentation](#presentation)  
+- [Programming Language & Tools](#programming-language--tools)  
+- [Dataset](#dataset)  
+- [Important Dates](#important-dates)  
+- [Repository Structure (Planned)](#repository-structure-planned)  
+- [Setup & How to Run our code](#setup--how-to-run-our-code)  
+
 ## Overview
 
 ## Team Infomation
