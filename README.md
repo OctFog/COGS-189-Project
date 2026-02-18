@@ -22,7 +22,7 @@
 ### Members (5 People)
 | Role | Member | Email |
 | - | - | - |
-| - | [Clarie Goa](https://github.com/Claire6ao) | jig029@ucsd.edu |
+| - | [Claire Goa](https://github.com/Claire6ao) | jig029@ucsd.edu |
 | - | [Chengszu Peng](https://github.com/ChengszuPeng) | c7peng@ucsd.edu |
 | - | [Kangxin Peng](https://github.com/KpengDS) | k2peng@ucsd.edu |
 | - | [Liuxuhong Zhao]() | liz066@ucsd.edu | 
