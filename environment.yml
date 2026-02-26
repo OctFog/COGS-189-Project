@@ -158,4 +158,10 @@ dependencies:
   - zeromq=4.3.5=h2c7f8f0_1
   - zlib=1.3.1=h5f15de7_0
   - zstd=1.5.7=h817c040_0
+  - pip:
+      - lazy-loader==0.4
+      - mne==1.11.0
+      - pooch==1.9.0
+      - scipy==1.17.1
+      - tqdm==4.67.3
 prefix: /opt/miniconda3/envs/cogs-189-X-proj-env
