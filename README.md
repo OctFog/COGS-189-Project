@@ -12,12 +12,20 @@
 - [Setup & How to Run our code](#setup--how-to-run-our-code)  
 
 ## Overview
+This repository contains the final project for *UCSD COGS 189*. The goal of this project is to classify EEG data from a competition dataset to identify motor imagery patterns, including ...
+
+The project covers the full pipeline of EEG data processing, including:
+- TBD
+
+Project Proposal: [V1](https://docs.google.com/document/d/1Ued5GemxQ-lzL4ZV4aivkzzAiIMmFG4fhII_fe1RG48/)
 
 ## Team Infomation
 
 ### Team Name
 
 ### Advisor
+Prof. Virginia De Sa
+
 
 ### Members (5 People)
 | Role | Member | Email |
@@ -40,14 +48,36 @@ The presentation will include:
 **Language:** Python
 
 **Libraries likely used:**
-- TBD
+- numpy
+- matplotlib.pyplot
+- os
+- zipfile
+- requests
+- mne
 
 ## Dataset
-- TBD
+The dataset we use is ***The BCI Competition IV – Dataset 2a***.
+*The BCI Competition IV Dataset 2a* is a benchmark EEG dataset for motor imagery research, provided as part of the international BCI Competition IV hosted by the Berlin BCI group and the Graz BCI lab. It contains multi‑session EEG recordings from **9 subjects** performing **cued motor imagery** tasks of four types: **left hand, right hand, foot, and tongue**.
 
-### Typical dataset properties
+Each subject performed two sessions on separate days. Each session consists of 6 runs, and each run contains 48 trials — 12 trials per class — yielding **288 trials per session**.
 
-### Dataset source
+- **EEG channels:** 22 scalp electrodes  
+- **EOG channels:** 3 (used for artifact detection, usually removed in preprocessing)  
+- **Sampling rate:** 250 Hz  
+- **Recordings:** Band‑pass filtered between 0.5–100 Hz with a 50 Hz notch filter  
+- **File format:** General Data Format for biomedical signals (GDF)  
+- **Classes:**  
+  - Left hand imagery  
+  - Right hand imagery  
+  - Foot imagery  
+  - Tongue imagery 
+
+The dataset is widely used for motor imagery classification research and benchmarking classification pipelines (e.g., CSP+LDA, deep learning models).
+
+For more infomation, see https://www.bbci.de/competition/iv/desc_2a.pdf
+
+**Download URL (official):**  
+👉 https://www.bbci.de/competition/download/competition_iv/BCICIV_2a_gdf.zip  
 
 ## Important Dates
 
